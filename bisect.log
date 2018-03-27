@@ -1,0 +1,5 @@
+git bisect start
+# good: [5e466f7d7537d5fef107e574ef663abd8e803bea] 0
+git bisect good 5e466f7d7537d5fef107e574ef663abd8e803bea
+# bad: [e5b8999c42a8b07ba48e587b7dcd7753334be5aa] 10
+git bisect bad e5b8999c42a8b07ba48e587b7dcd7753334be5aa
